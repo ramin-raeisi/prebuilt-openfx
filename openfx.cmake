@@ -8,3 +8,6 @@ find_path( OPENFX_LIB ofxSupport.lib PATHS $ENV{DEV_RBASE}/openfx-1.3/support/li
 	  
 set(Openfx_LIBRARIES debug ${OPENFX_LIB}/ofxSupportd.lib optimized ${OPENFX_LIB}/ofxSupport.lib)
 include_directories(${OPENFX_CXX_INCLUDE} ${OPENFX_C_INCLUDE} ${OPENFX_MY_INCLUDE})
+
+macro(AziOpenFx)
+endmacro(AziOpenFx)
